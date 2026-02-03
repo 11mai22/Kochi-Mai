@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>空きコマ可視化アプリ</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <h1>空きコマ可視化アプリ</h1>
+  <p>講義があるコマにチェックを入れてください</p>
+
+  <table id="timetable">
+    <tr>
+      <th></th>
+      <th>1限</th><th>2限</th><th>3限</th><th>4限</th><th>5限</th>
+    </tr>
+    <tr>
+      <th>月</th>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <th>火</th>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <th>水</th>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <th>木</th>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <th>金</th>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+  </table>
+
+ <h2 class="result-title">今の空きコマ</h2>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
