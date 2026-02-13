@@ -1,0 +1,93 @@
+body {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  background: #f7f9fb;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+th {
+  background: #f1f3f5;
+  font-weight: 600;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #198754;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #157347;
+}
+
+.result-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.free {
+  background: #e6f7f1;
+  color: #198754;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.busy {
+  background: #fdecec;
+  color: #dc3545;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  .free, .busy {
+    font-size: 18px;
+  }
+}
